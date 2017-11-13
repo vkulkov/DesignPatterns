@@ -1,11 +1,11 @@
 package com.lesson_6;
 
-import com.lesson_6.controller.Command;
-import com.lesson_6.controller.command.garage.GarageDoorOpenCommand;
-import com.lesson_6.controller.receiver.GarageDoor;
-import com.lesson_6.controller.receiver.Light;
-import com.lesson_6.controller.command.light.LightOnCommand;
-import com.lesson_6.controller.SimpleRemoteController;
+import com.lesson_6.simple.Command;
+import com.lesson_6.simple.GarageDoorOpenCommand;
+import com.lesson_6.simple.GarageDoor;
+import com.lesson_6.simple.Light;
+import com.lesson_6.simple.LightOnCommand;
+import com.lesson_6.simple.SimpleRemoteController;
 
 public class RemoteControlTest {
     public static void main(String[] args) {
